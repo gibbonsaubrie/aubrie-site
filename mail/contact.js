@@ -14,6 +14,10 @@ $(function () {
             var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
 
             location.href = "mailto:aubrie@executiveway.com?subject="+ encodeURI(subject) +"&body=" + encodeURI(body);
+            var name = $("input#name").val('');
+            var email = $("input#email").val('');
+            var subject = $("input#subject").val('');
+            var message = $("textarea#message").val('');
         },
         filter: function () {
             return $(this).is(":visible");
