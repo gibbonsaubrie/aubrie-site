@@ -628,6 +628,16 @@ a:focus {
     background: #E81C2E;
 }
 
+.section-header .underline::after {
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 2px;
+    left: 37.5%;
+    bottom: 0;
+    background: #E81C2E;
+}
+
 .section-header.text-left p::after {
     left: 0;
 }
@@ -2053,4 +2063,20 @@ a:focus {
 
 .footer .copyright p a:hover {
     color: #ffffff;
+}
+
+.width-20 {
+    width: 20% !important;
+}
+
+.width-40 {
+    width: 40% !important;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
 }
