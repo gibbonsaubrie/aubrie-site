@@ -801,6 +801,17 @@ a:focus {
     font-weight: 900;
 }
 
+.facts .facts-text h3.ignore::after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: -25px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
 .facts .facts-text p {
     color: #ffffff;
     font-size: 18px;
