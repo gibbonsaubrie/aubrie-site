@@ -14,11 +14,11 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #C2C5CC;
+    color: #800000;
 }
 
 a {
-    color: #C2C5CC;
+    color: #800000;
     transition: .3s;
 }
 
@@ -27,7 +27,7 @@ a:active,
 a:focus {
     color: #800000 ;
     outline: none;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .btn.btn-custom {
