@@ -162,7 +162,7 @@ a:focus {
 .top-bar .logo h1 {
     margin: -4px 0 0 0;
     color: #800000 ;
-    font-size: 44px;
+    font-size: 32px;
     line-height: 50px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -315,7 +315,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background: #ffffff;
+    background: #C2C5CC;
     margin-bottom: 45px;
 }
 
@@ -349,13 +349,13 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .1);
     z-index: 1;
 }
 
 .carousel .carousel-img img {
     width: 100%;
-    height: 100%;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -381,7 +381,7 @@ a:focus {
 }
 
 .carousel .carousel-text h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 90px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -390,7 +390,7 @@ a:focus {
 
 .carousel .carousel-text p {
     max-width: 500px;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     margin-bottom: 40px;
 }
@@ -603,7 +603,7 @@ a:focus {
     position: relative;
     width: 100%;
     max-width: 700px;
-    margin: 0 auto 45px auto;
+    margin: 0 auto 25px auto;
 }
 
 .section-header p {

@@ -32,7 +32,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="logo">
                             <a href="index.html">
-                                <h1>Auto<span>Wash</span></h1>
+                                <h1>Executive <span>Auto Glass</span></h1>
                                 <!-- <img src="img/logo.jpg" alt="Logo"> -->
                             </a>
                         </div>
@@ -45,8 +45,8 @@
                                         <i class="far fa-clock"></i>
                                     </div>
                                     <div class="top-bar-text">
-                                        <h3>Opening Hour</h3>
-                                        <p>Mon - Fri, 8:00 - 9:00</p>
+                                        <h3>8:00-5:00</h3>
+                                        <p>Mobile Services</p>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
+                                        <p>941 889 7917</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p>admin@executiveway.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
         <!-- Top Bar End -->
 
         <!-- Nav Bar Start -->
-          <div class="nav-bar">
+        <div class="nav-bar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
                     <a href="#" class="navbar-brand">Menu</a>
@@ -91,18 +91,8 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="story.html" class="nav-item nav-link">About Us</a>
                             <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
-                                <div class="dropdown-menu">
-                                    <a href="vehicles.html" class="dropdown-item">Vehicles</a>
-                                    <a href="calibration.html" class="dropdown-item">Calibration</a>
-                                    <a href="glass.html" class="dropdown-item">Glass</a>
-                                    <a href="service.html" class="dropdown-item">Service Areas</a>
-                                </div>
-                            </div>
-                            <a href="careers.html" class="nav-item nav-link">Join Our Team</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
                         </div>
                         <div class="ml-auto">
                             <a class="btn btn-custom" href="quote.html">Quote Request</a>
@@ -114,134 +104,92 @@
         <!-- Nav Bar End -->
         
         
-        <!-- Price Start -->
-        <div class="price">
+        <!-- Contact Start -->
+        <div class="contact">
             <div class="container">
                 <div class="section-header text-center">
+                    <p>We are here to serve</p>
                     <h2>Quote Request</h2>
                 </div>
+                <p class="col-8 offset-2" style="text-align: center;margin-bottom: 20px;font-weight: 700;">
+                    Hello! We are excited to serve you The Executive Way! Please be sure to include the <span style="color: #800000;">year</span>, <span style="color: #800000;">make</span>, and <span style="color: #800000;">model</span> of your vehicle as well as a <span style="color: #800000;">brief description</span> of your situation.
+                </p>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="price-item">
-                            <div class="" style="margin-bottom: 10px;">
-                                <a class="btn btn-custom" data-toggle="modal" data-target="#clientsModal">Clients</a>
+                    <div class="col-md-4">
+                        <div class="contact-info">
+                            <h2>Contact Information</h2>
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h3>Hours of Operation</h3>
+                                    <p>Mon - Fri, 8:00 - 5:00</p>
+                                </div>
                             </div>
-                            <div class="price-body">
-                                <p>Cash and Insurance</p>
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h3>Call Us</h3>
+                                    <p>941 889 7917</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h3>Email Us</h3>
+                                    <p>admin@executiveway.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="price-item">
-                            <div class="" style="margin-bottom: 10px;">
-                                <a class="btn btn-custom" data-toggle="modal" data-target="#partnersModal">Partners</a>
+                    <div class="col-md-7">
+                        <div class="contact-form">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="row">
+                                <div class="control-group col-4">
+                                    <input type="text" class="form-control" id="year" placeholder="Year" required="required" data-validation-required-message="Please enter a year" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-4">
+                                    <input type="text" class="form-control" id="make" placeholder="Make" required="required" data-validation-required-message="Please enter a make" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-4">
+                                    <input type="text" class="form-control" id="model" placeholder="Model" required="required" data-validation-required-message="Please enter a model" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                            <div class="price-body">
-                                <p>Shops, Dealerships, and Vendors</p>
-                            </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
                         </div>
+                    </div>
+                    <div class="col-md-12" hidden>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1600663868074!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Price End -->
-
-        <!-- Clients Modal -->
-        <div class="modal fade" id="clientsModal" tabindex="-1" role="dialog" aria-labelledby="clientsModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="clientsModalLabel" style="font-weight: bold;">Quote Request</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body" style="padding-top: 0;">
-                  <form>
-                    <div class="modal-header">Contact Information
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-name" placeholder="Your Name">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-email" placeholder="Your Email">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-phone" placeholder="Your Phone">
-                    </div>
-                    <div class="modal-header">Vehicle Information
-                    </div>
-                    <div class="form-group">
-                      <div class="flex">
-                      <input type="text" class="form-control width-20 color-grey margin-bottom-5" id="recipient-vehicle-year" placeholder="Year">
-                      <input type="text" class="form-control width-40 color-grey margin-bottom-5" id="recipient-vehicle-make" placeholder="Make">
-                      <input type="text" class="form-control width-40 color-grey margin-bottom-5" id="recipient-vehicle-model" placeholder="Model">
-                      </div>
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-vin" placeholder="Vehicles VIN Number">
-                    </div>
-                    <div class="modal-header" style="justify-content: left;">Insurance? <input type="checkbox" id="recipient-insurance" style="margin-top: 7px; margin-left: 6px; margin-right: 20px;"> Cash/Card? <input type="checkbox" id="cash-card" style="margin-top: 7px; margin-left: 6px;">
-                    </div>
-                    <div id="insurance-section" class="form-group">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-claim" placeholder="Claim Number">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-auth" placeholder="Authorization Number">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-insurance-name" placeholder="Insurance Company">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-insurance-contact-name" placeholder="Insurance Representative Name">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-insurance-email" placeholder="Insurance Representative Email">
-                      <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-insurance-phone" placeholder="Insurance Representative Phone Number">
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" id="contact-us" class="btn btn-default btn-notify" class="close" data-dismiss="modal" aria-label="Close">Submit</button>
-                </div>
-              </div>
-            </div>
-        </div>
-       <!-- Clients Modal End -->
-
-               <!-- Partners Modal -->
-               <div class="modal fade" id="partnersModal" tabindex="-1" role="dialog" aria-labelledby="partnersModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="partnersModalLabel" style="font-weight: bold;">Quote Request</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body" style="padding-top: 0;">
-                      <form>
-                        <div class="modal-header">Your Information
-                        </div>
-                        <div class="form-group">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-contact-name" placeholder="Contact Name">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-contact-email" placeholder="Contact Email">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-contact-phone" placeholder="Contact Phone Number">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-department" placeholder="Department">
-                        </div>
-                        <div class="modal-header">Client Information
-                        </div>
-                        <div class="form-group">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-name" placeholder="Client Name">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-email" placeholder="Client Email">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-phone" placeholder="Client Phone">
-                        </div>
-                        <div class="modal-header">Vehicle & Service Information
-                        </div>
-                        <div class="form-group">
-                          <div class="flex">
-                          <input type="text" class="form-control width-20 color-grey margin-bottom-5" id="recipient-vehicle-year" placeholder="Year">
-                          <input type="text" class="form-control width-40 color-grey margin-bottom-5" id="recipient-vehicle-make" placeholder="Make">
-                          <input type="text" class="form-control width-40 color-grey margin-bottom-5" id="recipient-vehicle-model" placeholder="Model">
-                          </div>
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-vin" placeholder="Vehicles VIN Number">
-                          <input type="text" class="form-control color-grey margin-bottom-5" id="recipient-ro" placeholder="RO/PO Number">
-                        </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" id="contact-us" class="btn btn-default btn-notify" class="close" data-dismiss="modal" aria-label="Close">Submit</button>
-                    </div>
-                  </div>
-                </div>
-            </div>
-           <!-- Partners Modal End -->
+        <!-- Contact End -->
 
 
         <!-- Footer Start -->
@@ -319,7 +267,7 @@
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <script src="mail/quote.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
