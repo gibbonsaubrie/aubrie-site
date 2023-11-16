@@ -60,8 +60,8 @@ a:focus {
     max-width: 1366px;
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="fa-"]:before, [class*=" flaticon-"]:before,
+[class^="fa-"]:after, [class*=" fa-"]:after {   
     font-size: inherit;
     margin-left: 0;
 }
@@ -731,7 +731,7 @@ a:focus {
     margin-bottom: 20px;
 }
 
-.service .service-item [class^="flaticon-"]::before {
+.service .service-item [class^="fa-"]::before {
     margin: 0;
     font-size: 60px;
     line-height: 60px;
@@ -1950,8 +1950,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
-    padding-top: 90px;
+    padding-top: 30px;
     background: #C2C5CC;
 }
 
